@@ -181,7 +181,7 @@ ul.menu i {
 }
 
 thead th {
-	border-bottom: 1px solid rgba(246, 248, 250, 1);
+	border-bottom: 1px solid rgba(246, 248, 250, 0.9);
 	padding-bottom: 12px;
 }
 
