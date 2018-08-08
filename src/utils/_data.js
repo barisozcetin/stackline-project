@@ -105,9 +105,10 @@ const data = [
 ];
 
 export function _getSales() {
+	// console.log(...data);
 	return new Promise((resolve, reject) => {
 		setTimeout(() => {
-			resolve({ ...sales });
+			resolve(...data);
 		}, 1000);
 	});
 }
