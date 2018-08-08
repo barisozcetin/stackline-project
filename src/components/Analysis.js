@@ -35,6 +35,7 @@ export class Analysis extends Component {
 	};
 
 	changeSortMethod = (sortBy) => {
+		if (!sortBy) return false;
 		if (this.state.sortBy === sortBy) {
 			this.setState((prevState) => ({ sortReverse: !prevState.sortReverse }));
 		}
