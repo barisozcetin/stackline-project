@@ -3,8 +3,9 @@ import { connect } from 'react-redux';
 import { handleInitialData } from './../actions/shared';
 import Loading from './Loading';
 import SideBar from './SideBar';
-import { Chart } from './Chart';
-import { Analysis } from './Analysis';
+import Chart from './Chart';
+import Analysis from './Analysis';
+import NavBar from './NavBar';
 
 class App extends Component {
 	componentDidMount() {
@@ -18,9 +19,7 @@ class App extends Component {
 					<Loading />
 				) : (
 					<div className="container">
-						<header className="navbar bg-white">
-							<h1 className="App-title">Stackline</h1>
-						</header>
+						<NavBar />
 						<div className="content">
 							<SideBar sales={sales} />
 							<div className="content__main">

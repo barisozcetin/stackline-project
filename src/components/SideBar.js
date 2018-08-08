@@ -19,12 +19,12 @@ const SideBar = ({ sales }) => {
 			</ul>
 			<ul className="menu">
 				<li>
-					<a href="#" className="link">
+					<a className="link">
 						<i className="fas fa-home" /> OVERVIEW
 					</a>
 				</li>
 				<li>
-					<a href="" className="link active">
+					<a className="link active">
 						{' '}
 						<i className="far fa-chart-bar" /> SALES
 					</a>
