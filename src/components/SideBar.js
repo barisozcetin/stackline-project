@@ -25,7 +25,6 @@ const SideBar = ({ sales }) => {
 				</li>
 				<li>
 					<a className="link active">
-						{' '}
 						<i className="far fa-chart-bar" /> SALES
 					</a>
 				</li>

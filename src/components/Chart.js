@@ -16,8 +16,8 @@ export class Chart extends Component {
 						<XAxis dataKey="weekEnding" />
 						<Tooltip />
 
-						<Line type="monotone" dataKey="retailSales" stroke="lightblue" strokeWidth={3} />
-						<Line type="monotone" dataKey="wholesaleSales" stroke="purple" strokeWidth={3} />
+						<Line type="monotone" dataKey="retailSales"  name="Retail Sales" stroke="lightblue" strokeWidth={3} />
+						<Line type="monotone" dataKey="wholesaleSales" stroke="purple" name="Wholesale Sales" strokeWidth={3} />
 					</LineChart>
 				</ResponsiveContainer>
 			</div>
