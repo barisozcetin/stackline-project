@@ -108,7 +108,7 @@ export function _getSales() {
 	// console.log(...data);
 	return new Promise((resolve, reject) => {
 		setTimeout(() => {
-			resolve(...data);
+			resolve(...data.sort((a, b) => new Date(b.weekEnding) - new Date(a.weekEnding)));
 		}, 1000);
 	});
 }

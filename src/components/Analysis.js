@@ -47,7 +47,7 @@ export class Analysis extends Component {
 		let sorted = [ ...this.props.data ];
 		switch (this.state.sortBy) {
 			case 'week':
-				sorted.sort((a, b) => b.weekEnding > a.weekEnding);
+				sorted.sort((a, b) => new Date(b.weekEnding) - new Date(a.weekEnding));
 				break;
 			case 'retail':
 				sorted.sort((a, b) => b.retailSales - a.retailSales);
