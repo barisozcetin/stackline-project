@@ -94,7 +94,7 @@ const data = [
 				retailerMargin: 423422
 			},
 			{
-				weekEnding: '01-02-31',
+				weekEnding: '2016-02-31',
 				retailSales: 243522,
 				wholesaleSales: 255721,
 				unitsSold: 508,
