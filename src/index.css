@@ -164,7 +164,6 @@ table {
 }
 
 thead {
-	border: 1px lightgray solid;
 	margin: 5px;
 }
 
@@ -179,4 +178,13 @@ ul.menu i {
 
 .arrow.reverse {
 	transform: rotate(180deg);
+}
+
+thead th {
+	border-bottom: 1px solid rgba(246, 248, 250, 1);
+	padding-bottom: 12px;
+}
+
+tbody td {
+	border-bottom: 1px solid rgba(246, 248, 250, .8);
 }
